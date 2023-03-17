@@ -13,11 +13,14 @@ st.markdown("""<style>
             .css-10trblm.e16nr0p30{
                     color: lightblue;
             }
+            .css-1y4p8pa {
+                    backgroung-image: url(`../get_it_right_frontend/assets/logo.png`);
+}
 
             </style>""", unsafe_allow_html=True)
 
 #logo reading
-logo = Image.open('/home/bushra/code/Loupy2023/get_it_right_frontend/assets/logo.png')
+logo = Image.open('../get_it_right_frontend/assets/logo.png')
 st.image(logo,width=500, use_column_width=None, )
 
 def main():
