@@ -11,17 +11,13 @@ import streamlit.components.v1 as components
 
 st.markdown("""<style>
             .css-10trblm.e16nr0p30{
-                    color: lightblue;
-            }
-            .css-1y4p8pa {
-                    backgroung-image: url(`../get_it_right_frontend/assets/logo.png`);
-}
+                    color: cadetblue;}
 
             </style>""", unsafe_allow_html=True)
 
 #logo reading
-logo = Image.open('../get_it_right_frontend/assets/logo.png')
-st.image(logo,width=500, use_column_width=None, )
+logo = Image.open('../get_it_right_frontend/assets/home.png')
+st.image(logo,width=700, use_column_width=None, )
 
 def main():
     st.title("Home Page")
