@@ -19,7 +19,7 @@ if uploaded_image is not None:
     st.write("Classifying...")
     response = requests.post("https://get-it-right-2fv75ren5q-ew.a.run.app/upload_image",files={"file": image})
     response_predict = requests.get("https://get-it-right-2fv75ren5q-ew.a.run.app/predict_one")
-    st.write(response_predict)
+    st.write(response_predict.text)
 
 
 #pages[selection]()
