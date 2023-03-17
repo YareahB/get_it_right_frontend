@@ -8,7 +8,7 @@ st.write("Upload an image and i will tell you what type of waste is it")
 
     # getting the input data from the user
 
-uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"], label ="Upload Image")
+uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"], )
 
 if uploaded_image is not None:
     # You can access the file contents using .read()

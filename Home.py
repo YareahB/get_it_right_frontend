@@ -18,7 +18,7 @@ st.markdown("""<style>
 
 #logo reading
 logo = Image.open('/home/bushra/code/Loupy2023/get_it_right_frontend/assets/logo.png')
-st.image(logo,width=200, use_column_width=None)
+st.image(logo,width=500, use_column_width=None, )
 
 def main():
     st.title("Home Page")
